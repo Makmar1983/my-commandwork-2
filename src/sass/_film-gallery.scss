@@ -57,7 +57,7 @@
   }
 }
 
-/*ЗАБРАТИ НИЖНЫЙ МАРДЖИН ОСТАННЬОГО ЕЛЕМЕНТА СПИСКА*/
+
 
 .film__information div:first-child{
   margin-bottom:20px;
@@ -124,21 +124,5 @@
   border-radius: 5px;
 }
 
-body.dark__theme {
-  .films__title {
-    color: var(--white-text-color);
-  }
 
-  .films__item {
-    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.5);
-
-    &:hover {
-      box-shadow: 0 2px 4px rgba(255, 165, 0, 0.9);
-
-      .films__img {
-        opacity: 0.7;
-      }
-    }
-  }
-}
 
